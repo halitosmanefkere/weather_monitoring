@@ -3,6 +3,8 @@
 This project provides a real-time weather monitoring application using the SPL06-007 sensor and an Arduino board. 
 The sensor data (temperature, pressure, altitude) is read by the Arduino and sent over a serial connection to a Python GUI application, 
 which displays the data in a dashboard format.
+![Dashboard Screenshot](images/dashboard_screenshot.png)
+
 
 ## Author
 
@@ -16,6 +18,14 @@ This project was created by **Halit Osman Efkere**.
 - **Atmosphere Layer Detection**: Determine the atmospheric layer based on altitude.
 - **Weather Estimation**: Basic weather estimation based on pressure trends.
 - **Energy Efficient**: Designed with a dark theme for low energy consumption.
+
+## Sensor and Hardware Setup
+
+Below is an image showing the SPL06-007 sensor connected to the Arduino:
+
+![Sensor](images/sensor.jpeg)
+![Sensor Setup](images/setup.jpeg)
+![Sensor Setup](images/setup_opened.jpeg)
 
 ## Requirements
 
